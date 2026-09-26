@@ -1,0 +1,65 @@
+@import "tailwindcss";
+
+@theme {
+  --font-serif: 'Newsreader', Georgia, serif;
+  --font-sans: 'Plus Jakarta Sans', system-ui, -apple-system, sans-serif;
+  --font-urdu: 'Noto Nastaliq Urdu', serif;
+}
+
+:root {
+  --paper-bg: #FAF7F2;
+  --paper-surface: #FFFFFF;
+  --paper-tint: #F3EFE8;
+  --paper-border: #E6E0D6;
+  --ink-primary: #121C2B;
+  --ink-secondary: #4A5568;
+  --ink-muted: #7A8699;
+  --cobalt-primary: #1E40AF;
+  --cobalt-deep: #172554;
+  --cobalt-light: #EFF6FF;
+}
+
+body {
+  font-family: 'Plus Jakarta Sans', system-ui, -apple-system, sans-serif;
+  background-color: #FAF7F2;
+  color: #121C2B;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+/* Subtle paper texture overlay */
+.paper-grain {
+  background-color: #FAF7F2;
+  background-image: radial-gradient(rgba(18, 28, 43, 0.035) 1px, transparent 0);
+  background-size: 24px 24px;
+}
+
+.paper-card {
+  background-color: #FFFFFF;
+  border: 1px solid #E6E0D6;
+}
+
+.font-serif {
+  font-family: 'Newsreader', Georgia, serif;
+}
+
+.font-urdu {
+  font-family: 'Noto Nastaliq Urdu', serif;
+}
+
+/* Print studio hairline borders */
+.border-paper {
+  border-color: #E6E0D6;
+}
+
+.bg-paper {
+  background-color: #FAF7F2;
+}
+
+.bg-paper-surface {
+  background-color: #FFFFFF;
+}
+
+.bg-paper-tint {
+  background-color: #F3EFE8;
+}

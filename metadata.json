@@ -1,0 +1,6 @@
+{
+  "name": "Mustafa Stationers | Printing & Stationery Quetta",
+  "description": "Mustafa Stationers in Housing Scheme, Quetta provides stationery, photostat, printing, colour printing, and Urdu & English composing services.",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}
